@@ -9,5 +9,9 @@ public class Main {
 
         Student student2 = new Student();
         student2.getUserinput();
+
+        Student student3 = new Student();
+        student3.getDisplay();
+        student3.infoDisp();
     }
 }

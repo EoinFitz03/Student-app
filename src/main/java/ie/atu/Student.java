@@ -63,4 +63,17 @@ public class Student {
 
     }
 
+    public void getDisplay(){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter student 3 name ");
+        this.name = scanner.nextLine();
+
+        setEmail("EoinFitz28@gmail.com");
+        setCourse("Math");
+    }
+
+    public void infoDisp(){
+        System.out.println("Name: " + getName() + "\nEmail: " + getEmail() + "\nCourse: " + getCourse());
+    };
 }

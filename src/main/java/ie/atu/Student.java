@@ -49,5 +49,18 @@ public class Student {
     }
 
 
+    public void getUserinput(){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter name for second student: ");
+        this.name = scanner.nextLine();
+
+        System.out.println("Enter email for second student: ");
+        this.email = scanner.nextLine();
+
+        System.out.println("Enter course for second student : ");
+        this.course = scanner.nextLine();
+
+    }
 
 }
